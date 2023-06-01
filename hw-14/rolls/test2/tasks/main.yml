@@ -1,0 +1,9 @@
+---
+
+- hosts: all
+  tasks:
+    name: copy the name of servers
+    copy:
+      src: ansible_play_hosts
+      path: /tmp/test2
+

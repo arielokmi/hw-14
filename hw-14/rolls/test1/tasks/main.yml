@@ -1,0 +1,7 @@
+---
+- hosts: all
+  tasks:
+   - name: create hello file
+     copy:
+       dest = /tmp/test1
+     content: hello world
